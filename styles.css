@@ -3,7 +3,6 @@
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
-  color: #7342d6;
 }
 
 html {
@@ -19,6 +18,31 @@ li {
   list-style-type: none;
 }
 
+h1{
+  font-size: 40px;
+  text-align: center;
+}
+
+h2{
+  font-size: 28px;
+  text-align: center;
+}
+
+.row{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 700px;
+  margin-top: 80px;
+}
+
+.text__purple{
+  color: #7342d6;
+}
+
+button:active{
+  transform: translateY(5px);
+}
 /* NAVBAR*/
 
 .nav__bar {
@@ -88,12 +112,58 @@ li {
   left: 0;
 }
 
-#landing {
-  background-color: rgba(115, 66, 214, 0.1);
-}
 
 header {
   height: calc(100vh - 80px);
 }
 
 /* LANDINGPAGE*/
+#landing {
+  background-color: rgba(115, 66, 214, 0.1);
+}
+
+.landing__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.landing__title{
+  color: #7342d6;
+}
+
+.landing__sub-title{
+  margin: 16px 0;
+}
+
+.landing__button{
+  color: white;
+  font-size: 16px;
+  background-color: #7342d6;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: none;
+  margin: 8px 0;
+  transition: all 400ms ease;
+}
+
+.landing__button:hover{
+  font-size: 20px;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.landing__img--wrapper{
+width: 80%;
+margin: 0 auto;
+margin-top: 190px;
+padding: 20px;
+}
+
+.landing__img{
+  width: 100%;
+}
+
+/* WHY*/
