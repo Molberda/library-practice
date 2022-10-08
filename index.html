@@ -9,9 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,900&family=Teko:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,900&family=Teko:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+    <script src="https://kit.fontawesome.com/07b12e589f.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <section id="landing">
@@ -39,27 +39,70 @@
       </nav>
       <header>
         <div class="row">
-        <div class="landing__container">
-          <h1 class="landing__title">
-            Australia's most awarded online library platform
-          </h1>
-          <h2 class="landing__sub-title">
-            Find your dream book with <span class="text__purple">Library</span>
-          </h2>
-          <button class="landing__button" href="#"> Browse Books </button>
+          <div class="landing__container">
+            <h1 class="landing__title">
+              Australia's most awarded online library platform
+            </h1>
+            <h2 class="landing__sub-title">
+              Find your dream book with
+              <span class="text__purple">Library</span>
+            </h2>
+            <button class="landing__button" href="#">Browse Books</button>
+          </div>
+          <figure class="landing__img--wrapper">
+            <img src="./Assets/Undraw_Books.svg" alt="" class="landing__img" />
+          </figure>
         </div>
-        <figure class="landing__img--wrapper">
-          <img src="./Assets/Undraw_Books.svg" alt="" class="landing__img">
-        </figure>
-      </div>
       </header>
     </section>
-    <section id="why">
-      <div class="row">
-        <div class="why__container">
-          <h1 class="section__title Lib__title">Why choose <span class="text__purple">Library</span></h1>
+    <main>
+      <section id="why">
+        <div class="row why__row">
+          <div class="why__container">
+            <h1 class="section__title why__title">
+              Why choose <span class="text__purple">Library</span> ?
+            </h1>
+            <div class="why__wrapper">
+              <div class="why__wrappers">
+                <figure class="why__img--wrapper">
+                  <i class="fa-solid fa-bolt why__icon"></i>
+                </figure>
+                <h3>Easy and Quick</h3>
+                <p class="why__para">
+                  Get acces to the book you purchased online instantly
+                </p>
+              </div>
+              <div class="why__wrappers">
+                <figure class="why__img--wrapper">
+                  <i class="fa-solid fa-book why__icon"></i>
+                </figure>
+                <h3>Easy and Quick</h3>
+                <p class="why__para">
+                  Get acces to the book you purchased online instantly
+                </p>
+              </div>
+              <div class="why__wrappers">
+                <figure class="why__img--wrapper">
+                  <i class="fa-solid fa-tags why__icon"></i>
+                </figure>
+                <h3>Easy and Quick</h3>
+                <p class="why__para">
+                  Get acces to the book you purchased online instantly
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section id="featured__books">
+        <div class="row featured__books--row">
+          <div class="container featured__books--container">
+            <h2 class="books__title">
+              Featured <span class="text__purple">Books</span>
+            </h2>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
