@@ -181,11 +181,13 @@ header {
 
 #why {
   width: 100%;
+  height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  margin-top: 100px;
   position: relative;
 }
 
@@ -195,21 +197,22 @@ header {
   width: 100%;
 }
 
-#why::before {
+.why__row::before {
   background: url("./Assets/wave.svg");
   content: "";
   position: absolute;
   left: 0;
   width: 100vw;
-  height: 250px;
+  height: 50px;
   z-index: 1;
   background-size: cover;
   background-repeat: no-repeat;
   transform: translateY(-230px);
+  transform: scale(0.5);
   top: 0px;
 }
 
-#why::after {
+.why__row::after {
   background: url("./Assets/wave.svg");
   content: "";
   position: absolute;
