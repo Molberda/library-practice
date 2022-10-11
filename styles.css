@@ -327,6 +327,7 @@ h3 {
 
 .book__img {
   width: 100%;
+  height: 180px;
   border-radius: 10px;
   transition: all 300ms ease;
 }
@@ -353,6 +354,7 @@ h3 {
 .book__button {
   border: 0px;
   transition: all 150ms ease;
+  border-radius: 10px;
 }
 
 /*LATEST BOOKS*/
