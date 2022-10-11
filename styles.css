@@ -475,3 +475,26 @@ footer {
 .link__hover-effect--white:after {
   background-color: white;
 }
+
+/* MEDIA QUERIES*/
+
+@media (max-width: 768px) {
+
+  .books{
+    justify-content: center;
+  }
+  .books1{
+    justify-content: center;
+  }
+  .books2{
+    justify-content: center;
+  }
+
+.book{
+  margin: 0 60px 20px 60px;
+}
+
+.footer__logo--popper{
+  top: 26px;
+}
+}
