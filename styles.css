@@ -412,6 +412,7 @@ footer {
 .footer__logo--img {
   width: 100px;
   height: 70px;
+  filter: grayscale(1) invert(1);
 }
 .footer__row {
   margin: 0;
