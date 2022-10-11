@@ -162,10 +162,14 @@ header {
   cursor: pointer;
 }
 
+.landing__row{
+  align-items: center;
+}
+
 .landing__img--wrapper {
-  width: 80%;
   max-width: 800px;
   margin: 0 auto;
+  margin: 20px 0 80px;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -201,15 +205,13 @@ header {
   background: url("./Assets/wave.svg");
   content: "";
   position: absolute;
+  bottom: 200px;
   left: 0;
   width: 100vw;
-  height: 50px;
+  height: 230px;
   z-index: 1;
   background-size: cover;
   background-repeat: no-repeat;
-  transform: translateY(-230px);
-  transform: scale(0.5);
-  top: 0px;
 }
 
 .why__row::after {
