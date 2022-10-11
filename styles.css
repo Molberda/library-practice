@@ -498,3 +498,25 @@ footer {
   top: 26px;
 }
 }
+
+@media (max-width: 550px) {
+
+  .book{
+    margin: 0 20px 20px 20px;
+  }
+
+  .books{
+    justify-content: space-evenly;
+  }
+  .books1{
+    justify-content: space-evenly;
+  }
+  .books2{
+    justify-content: space-evenly;
+  }
+
+  .footer__anchor{
+    margin-bottom: 10px;
+  }
+  
+}
