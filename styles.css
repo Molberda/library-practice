@@ -158,6 +158,11 @@ display: none;
   opacity: 1;
 }
 
+.menu--open{
+  max-height: 100vh;
+  overflow-y: hidden;
+}
+
 .btn__menu--close{
   position: absolute;
   right: 20px;
