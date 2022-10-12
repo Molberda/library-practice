@@ -61,6 +61,7 @@ body {
 .nav__bar--wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   padding: 12px 24px;
 }
@@ -94,6 +95,7 @@ body {
   border: 2px solid #7342d6;
   border-radius: 7px;
   transition: all 200ms ease-in-out;
+  margin-right: 20px;
 }
 
 .nav__link--primary:hover {
@@ -122,7 +124,81 @@ header {
   height: calc(100vh - 80px);
 }
 
+.btn__menu{
+background-color: transparent;
+border: none;
+color: #7342d6;
+font-size: 36px;
+text-align: center;
+cursor: pointer;
+height: fit-content;
+display: none;
+}
+
+.menu__backdrop{
+  position: absolute;
+  background-color: #242424;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 300ms ease;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.menu--open .menu__backdrop{
+  display: flex;
+  visibility: visible;
+  opacity: 1;
+}
+
+.btn__menu--close{
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  padding: 8px;
+  color: white;
+}
+
+.menu__list--order{
+  height: 65vh;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.menu__list{
+  width: fit-content;
+}
+
+.menu__link{
+  color: white;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: underline;
+  padding: 32px 12px;
+}
+
+.menu__link--no-cursor{
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: underline;
+  padding: 32px 12px;
+}
 /* LANDINGPAGE*/
+
+
 #landing {
   width: 100%;
   background-color: rgba(115, 66, 214, 0.1);
@@ -521,6 +597,14 @@ footer {
 
 @media (max-width: 550px) {
   
+.nav__link--list{
+  display: none;
+}
+
+.btn__menu{
+  display: flex;
+}
+
   .book{
     margin: 0 20px 20px 20px;
   }
