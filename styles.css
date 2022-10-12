@@ -507,6 +507,15 @@ footer {
 .footer__logo--popper{
   top: 26px;
 }
+
+.why__row::before {
+  top: -200;
+  height: 100px;
+}
+
+.why__row::after {
+  bottom: -200px;
+  height: 200px;
 }
 
 @media (max-width: 550px) {
