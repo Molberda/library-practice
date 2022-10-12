@@ -218,10 +218,10 @@ header {
   background: url("./Assets/wave.svg");
   content: "";
   position: absolute;
-  bottom: -230px;
+  bottom: -300px;
   left: 0;
   width: 100vw;
-  height: 230px;
+  height: 300px;
   z-index: 1;
   background-size: cover;
   background-repeat: no-repeat;
@@ -294,6 +294,7 @@ h3 {
   display: flex;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  padding-top: 50px;
 }
 
 .featured__books--row {
